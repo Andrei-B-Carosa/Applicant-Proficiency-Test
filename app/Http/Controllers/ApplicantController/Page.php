@@ -32,9 +32,11 @@ class Page extends Controller
 
             'home' => view('applicant.0001'),
 
-            'typing-test' => view('applicant.0001'),
+            'typing-test' => view('applicant.0002'),
 
-            'excel-test' => view('applicant.0002'),
+            'excel-test' => view('applicant.0003'),
+
+            'test-result' => view('applicant.0004'),
 
             default => false
 

@@ -33,7 +33,7 @@ Route::prefix('apt')->group(function () {
 
         Route::controller(ApplicantPage::class)->group(function () {
 
-            Route::post('/page-content', 'page');
+            Route::post('/page', 'page');
 
             Route::get('/home', 'index')->name('applicant.home');
             Route::get('/typing-test', 'index');
