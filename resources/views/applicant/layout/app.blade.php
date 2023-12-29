@@ -36,22 +36,22 @@
             document.documentElement.setAttribute("data-bs-theme", themeMode);
         }
     </script>
-    <style>
+    {{-- <style>
         body {
             background-image: url('../../assets/media/auth/bg8.jpg');
         }
         [data-bs-theme="dark"] body {
             background-image: url('../../assets/media/auth/bg8-dark.jpg');
         }
-    </style>
+    </style> --}}
 </head>
 <body id="kt_body" class="app-blank bgi-size-cover bgi-position-center bgi-no-repeat">
     <div class="d-flex flex-column flex-root" id="kt_app_root">
-        <div class="d-flex flex-column flex-center flex-column-fluid">
-            <div id="pg-content">
+        {{-- <div class="d-flex flex-column flex-center flex-column-fluid"> --}}
+        
                 {{-- PAGE CONTENT --}}
-            </div>
-        </div>
+
+        {{-- </div> --}}
     </div>
     <script src="{{ asset('assets/plugins/global/plugins.bundle.js') }}"></script>
     <script src="{{ asset('assets/js/scripts.bundle.js') }}"></script>

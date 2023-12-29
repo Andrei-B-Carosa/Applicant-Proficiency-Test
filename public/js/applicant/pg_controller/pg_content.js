@@ -15,14 +15,14 @@ export async function page_content(page, v) {
         },
         complete: function () {
             b.release("Please Wait");
-            $("#pg-content").fadeIn(500);
+            $("#kt_app_root").fadeIn(500);
             $("html, body").animate({ scrollTop: 0 }, "slow");
             const pageTitle = page.replace(/[^A-Z0-9]+/gi, " ").split(" ").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
             $("head > title").empty().append("Applicant Proficiency Test | " + pageTitle);
         },
         success: async function (res) {
             gs_sessionStorage("applicant-page", page);
-            $("#pg-content").empty().hide().append(res).promise().done(function () {
+            $("#kt_app_root").empty().hide().html(res).promise().done(function () {
                 _pageController(page.split("/")[0], v);
             });
         },

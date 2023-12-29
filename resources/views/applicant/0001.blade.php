@@ -12,7 +12,7 @@
                 Hello Guest, we'll be assessing your Typing and Excel skills. <br>Get ready to showcase your proficiency!
             </div>
             <div class="mb-0 mt-5 d-grid gap-2  col-6 mx-auto">
-                <button type="button" class="btn btn-success hover-scale btn-0001-0001">Proceed</button>
+                <button type="button" class="btn btn-success hover-scale btn-0001-0001">Take Test</button>
             </div>
         </div>
     </div>

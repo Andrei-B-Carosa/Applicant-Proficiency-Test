@@ -41,7 +41,6 @@ var appHandler = function(){
 
     var urlPage =  async function (url){
         let check =  await urlParams(window.location.href), page  = "";
-        console.log(url.split('/')[1])
         if(url.split('/')[1] == 'apt')
         {
             page = url.split('/')[2];
